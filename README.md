@@ -1,69 +1,36 @@
-# React + TypeScript + Vite
+ CIIRA | Portfolio
+A personal portfolio project built as part of a class assignment to showcase web development skills, projects, and contact information.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Features
+Responsive layout built with React and Tailwind CSS
+Navigation for About, Projects, and Contact
+"Hire Me" call-to-action button
+Clean, modern UI using utility-first CSS
+Mobile-friendly design
 
-Currently, two official plugins are available:
+Tech Stack
+React – Component-based UI
+Tailwind CSS – Utility-first styling
+Vite – Fast development build tool
+TypeScript – Type-safe development
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Getting Started
+Clone the repo:
+git clone https://github.com/your-username/PLP_ACADEMY.git
+cd plp-academy
 
-## Expanding the ESLint configuration
+Install dependencies:
+npm install
+Start the development server:
+npm run dev
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Expected Learning Outcomes
+Gain hands-on experience with component-based design
+Practice Tailwind utility classes for layout and styling
+Build and deploy a functional React website
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Contact
+Feel free to reach out:
+Email: ciiradev@gmail.com
+GitHub: ChiraCodex
